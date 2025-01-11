@@ -2,12 +2,12 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "dev": "nodemon backend/app.js",
+    "dev": "nodemon backend/index.js",
     "build": "npm install  && npm install --prefix frontend_e && npm run build --prefix frontend_e",
-    "start": "nodemon backend/app.js"
+    "start": "nodemon backend/index.js"
   },
   "author": "",
   "license": "ISC",
